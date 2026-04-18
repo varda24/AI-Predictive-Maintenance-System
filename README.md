@@ -1,22 +1,41 @@
 # 🔧 AI-Powered Predictive Maintenance System
 
+🚀 **End-to-end machine learning system that predicts potential failures using operational data and provides real-time alerts via an interactive dashboard.**
+
+---
+
+## ⚡ Key Highlights
+
+* 🔍 Detects potential system failures using ML
+* ⚠️ Real-time alert system (Failure / Normal prediction)
+* 📊 Handles real-world issues like data leakage & class imbalance
+* 🖥️ Deployed with an interactive Streamlit dashboard
+* 📈 Achieves ~70% accuracy with improved failure detection
+
+---
+
 ## 📌 Overview
 
-This project simulates an AI-based predictive maintenance system that detects potential failures using machine learning and operational data.
+This project simulates an AI-based predictive maintenance system used in industries to prevent unexpected failures.
 
-It includes a complete pipeline:
+It includes:
 
 * Data preprocessing
 * Feature engineering
-* Machine learning model
-* Real-time prediction dashboard using Streamlit
+* Machine learning model (Random Forest)
+* Real-time prediction dashboard
 
 ---
 
 ## 🎯 Problem Statement
 
-Industries face unexpected machine failures that lead to downtime and financial loss.
-This project predicts potential failures in advance using data-driven techniques.
+Unexpected failures in industrial systems lead to:
+
+* Downtime
+* Financial loss
+* Reduced efficiency
+
+This system predicts failures in advance using data-driven techniques.
 
 ---
 
@@ -24,8 +43,8 @@ This project predicts potential failures in advance using data-driven techniques
 
 * Manufacturing plants
 * Automotive systems
-* IoT-based monitoring systems
-* Energy and power plants
+* IoT-based monitoring
+* Energy & power systems
 
 ---
 
@@ -41,73 +60,47 @@ This project predicts potential failures in advance using data-driven techniques
 
 ## 📊 Dataset
 
-Walmart dataset used to simulate real-world operational conditions.
-Failure is defined based on low performance (proxy-based labeling).
+* Walmart dataset used to simulate operational conditions
+* Failure defined using **proxy-based labeling (low performance)**
 
 ---
 
-## 🧠 Model
+## 🧠 Model Details
 
 * Algorithm: Random Forest Classifier
-* Handled:
+* Improvements:
 
-  * Data leakage
-  * Class imbalance
-* Achieved:
+  * Removed data leakage
+  * Handled class imbalance using weighting
 
-  * ~70% accuracy
-  * Improved failure detection recall
+### 📈 Performance
+
+* Accuracy: ~70%
+* Improved recall for failure detection
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
 
+```
 Data → Preprocessing → Feature Engineering → Model → Prediction → Dashboard
-
----
-
-## 🚀 How to Run
-
-### 1. Clone Repository
-
-```bash
-git clone <your-repo-link>
-cd AI-Predictive-Maintenance-System
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run Model
-
-```bash
-python main.py
-```
-
-### 4. Run Dashboard
-
-```bash
-streamlit run app.py
 ```
 
 ---
 
-## 📸 Results
+## 🖥️ Dashboard Preview
 
-### Dashboard
-
-![Dashboard](images/dashboard_home.png)
-
-### Normal Prediction
+### ✅ Normal Operation
 
 ![Normal](images/normal_prediction.png)
 
-### Failure Detection
+### ⚠️ Failure Detection
 
 ![Failure](images/failure_prediction.png)
+
+---
+
+## 📊 Model Insights
 
 ### Confusion Matrix
 
@@ -119,13 +112,25 @@ streamlit run app.py
 
 ---
 
+## 🚀 How to Run
+
+```bash
+git clone <your-repo-link>
+cd AI-Predictive-Maintenance-System
+pip install -r requirements.txt
+python main.py
+streamlit run app.py
+```
+
+---
+
 ## 💡 Key Learnings
 
-* Handling real-world data issues (missing values, encoding)
+* Handling real-world data challenges
 * Avoiding data leakage
-* Handling imbalanced datasets
+* Managing imbalanced datasets
 * Building end-to-end ML systems
-* Deploying ML using Streamlit
+* Deploying ML models using Streamlit
 
 ---
 
@@ -133,11 +138,11 @@ streamlit run app.py
 
 * Real IoT sensor integration
 * Deep learning models (LSTM)
-* Real-time streaming data
+* Real-time streaming pipelines
 * Cloud deployment
 
 ---
 
 ## 👨‍💻 Author
 
-Varda Kunde
+**Varda Kunde**

@@ -88,8 +88,6 @@ Data → Preprocessing → Feature Engineering → Model → Prediction → Dash
 
 ---
 
-## 🖥️ Dashboard Preview
-
 ### ✅ Normal Operation
 
 ![Normal](images/normal_prediction.png)
